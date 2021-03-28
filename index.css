@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(218, 119, 73);
+}
+
+#txt-input {
+  width: 30%;
+}
+
+.output {
+  width: 30%;
+  height: 10rem;
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: aliceblue;
+}
