@@ -58,6 +58,20 @@ h4 {
   border: 2px solid var(--primary-color);
 }
 
+.btn-translate:hover {
+  background-image: linear-gradient(
+    to top left,
+    var(--color-1),
+    var(--color-2),
+    var(--color-3),
+    var(--color-4)
+  );
+  border: none;
+  color: #1e3a8a;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 .btn-translate:active {
   border: 1px solid var(--primary-color);
 }
@@ -71,10 +85,12 @@ h4 {
 
 #txt-input {
   width: 40%;
+  height: 9rem;
   display: block;
   margin: 0 auto;
   margin-top: 2rem;
   padding: 1rem;
+  font-size: 1.5rem;
   color: var(--primary-color);
   background-color: var(--bg-color-1);
   border: 1px solid var(--color-3);
@@ -90,6 +106,7 @@ h4 {
   margin-bottom: 2rem;
   width: 40%;
   height: 9rem;
+  font-size: 1.5rem;
   border: 1px solid var(--color-4);
   border-radius: 2px;
   color: var(--primary-color);
